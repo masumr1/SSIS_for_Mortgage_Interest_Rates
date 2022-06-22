@@ -12,7 +12,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[FreddieMac_PMMS](
-	[Week] [nvarchar](500) NULL,
+	[Week] [date]  NULL,
 	[30_YR_FRM] [nvarchar](500) NULL,
 	[30_YR_Fees_Points] [nvarchar](500) NULL,
 	[15_YR_FRM] [nvarchar](500) NULL,
